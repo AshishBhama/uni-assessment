@@ -1,0 +1,7 @@
+#a string represent an integer or not
+
+string = input("Input a string:\n")
+if string.isnumeric():
+  print("is a number")
+else:
+  print("The string is not an integer")
