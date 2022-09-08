@@ -1,0 +1,10 @@
+#month name to a number of days
+
+month = input("Input the name of month :\n")
+x = "No of days :"
+if month in ['january','march','may','july','august','october','december']:
+  print (x , 31)
+elif month == "february":
+  print (x + '28/29')
+else:
+  print (x , 30)
