@@ -1,0 +1,9 @@
+#program that takes10 numbers as input from user and find their sum and average.
+
+x = input()
+list_of_the_numbers = x.split(' ')
+sum=0
+for number in list_of_the_numbers:
+  sum += int(number)
+print(sum)
+print(sum/10)
